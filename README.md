@@ -1,5 +1,5 @@
 # regula-falsi
-	Calculates Approximates the value of the root using regula-falsi (interlinear interpolation)
+	Approximates the value of root using regula falsi method (linear interpolation)
 # How to Use
 	Open NetBeans IDE
 	Open the project
