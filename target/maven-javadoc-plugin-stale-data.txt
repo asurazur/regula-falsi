@@ -1,0 +1,54 @@
+@options
+@packages
+-classpath
+'C:/Users/rumbl/.m2/repository/org/python/jython-standalone/2.7.3/jython-standalone-2.7.3.jar;C:/Users/rumbl/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar;C:/Users/rumbl/.m2/repository/org/swinglabs/swingx/1.6.1/swingx-1.6.1.jar;C:/Users/rumbl/.m2/repository/com/jhlabs/filters/2.0.235/filters-2.0.235.jar;C:/Users/rumbl/.m2/repository/org/swinglabs/swing-worker/1.1/swing-worker-1.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'19'
+-sourcepath
+'C:/Users/rumbl/OneDrive/Documents/Programming/commission/regula-falsi/src/main/java;C:/Users/rumbl/OneDrive/Documents/Programming/commission/regula-falsi/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/rumbl/OneDrive/Documents/Programming/commission/regula-falsi/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'regula-falsi 1.0 API'
+-use
+-version
+-windowtitle
+'regula-falsi 1.0 API'
+com.mycompany.numericals_completion
+C:\Users\rumbl\.m2\repository\org\python\jython-standalone\2.7.3\jython-standalone-2.7.3.jar = 1695968247775
+C:\Users\rumbl\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar = 1695952208477
+C:\Users\rumbl\.m2\repository\org\swinglabs\swingx\1.6.1\swingx-1.6.1.jar = 1696171794840
+C:\Users\rumbl\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar = 1696171795358
+C:\Users\rumbl\.m2\repository\org\swinglabs\swing-worker\1.1\swing-worker-1.1.jar = 1696171795737
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\src\main\java = 1696165459158
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\generated-sources\annotations = 1696173807493
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\allclasses-index.html = 1696173866193
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\allpackages-index.html = 1696173866199
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\copy.svg = 1696173866248
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\element-list = 1696173866048
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\help-doc.html = 1696173866238
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\index-all.html = 1696173866224
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\index.html = 1696173866231
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\jquery-ui.overrides.css = 1696173866270
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\member-search-index.js = 1696173866208
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\module-search-index.js = 1696173866201
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\overview-tree.html = 1696173866177
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\package-search-index.js = 1696173866204
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\script.js = 1696173866246
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\search-page.js = 1696173866254
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\search.html = 1696173866228
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\search.js = 1696173866252
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\serialized-form.html = 1696173866143
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\stylesheet.css = 1696173866243
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\tag-search-index.js = 1696173866210
+C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\apidocs\type-search-index.js = 1696173866206

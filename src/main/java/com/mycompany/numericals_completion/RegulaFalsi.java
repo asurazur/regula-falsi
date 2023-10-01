@@ -11,8 +11,6 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableCellRenderer;
 import java.text.DecimalFormat;
 import javax.swing.table.DefaultTableModel;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 /**
  *
  * @author ARGANDA
@@ -256,6 +254,7 @@ public class RegulaFalsi extends javax.swing.JFrame {
         });
 
         result_entry.setEditable(false);
+        result_entry.setBackground(new java.awt.Color(255, 255, 255));
         result_entry.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         result_entry.setText("R = ");
         result_entry.addActionListener(new java.awt.event.ActionListener() {
@@ -557,12 +556,14 @@ public class RegulaFalsi extends javax.swing.JFrame {
     }//GEN-LAST:event_equalActionPerformed
 
     private String regulaFalsiSolve(String fx, double a, double b, double e){
-                //Check if between a and b there exist a root by applying it to fx
+        //Check if between a and b there exist a root by applying it to fx
+        double root = Double.NaN;    
         double fa = eval(fx, a);
         double fb = eval(fx, b);
-        System.out.printf("x0: %f\nx1: %f\n%f\n",a,b,e);
-        System.out.println(fa);
-        System.out.println(fb);
+        double fr = Double.NaN;
+        System.out.printf("x0: %f\nx1: %f\ne: %f\n",a,b,e);
+        System.out.println("fa_1: " + fa);
+        System.out.println("fb_1: " + fb);
         
         //Check if a and b is bracketing the root
         if ((fa * fb) > 0.0){
@@ -571,28 +572,32 @@ public class RegulaFalsi extends javax.swing.JFrame {
         
         //Get table model
         DefaultTableModel tableModel = (DefaultTableModel) iteration_table.getModel();
-        double c = a;      
-        while (Math.abs(b - a) > e) {
-            c = (a * fb - b * fa) / (fb - fa);
-            double fc = eval(fx, c);
-            Object[] rowData = {a, b, c, fa, fb, fc};
-            tableModel.addRow(rowData);
-            if (fc == 0.0) {
-                break; // Exact root found
-            } else if (fa * fc < 0) {
-                b = c;
-                fb = fc;
+        
+        //iteration
+        for (int i = 0; i < 1000; i++) {
+            root = (a * fb - b * fa) / (fb - fa);
+            fr = eval(fx, root);
+            tableModel.addRow(new Object[]{a,b,root,fa,fb,fr});
+            if (Math.abs(fr) < e) {
+                System.out.println("Converged to a root: " + root);
+                break;
+            }
+            
+            if (fr * fa < 0) {
+                b = root;
+                fb = fr;
             } else {
-                a = c;
-                fa = fc;
+                a = root;
+                fa = fr;
             }
         }
+        
         TableCellRenderer doubleRenderer = new DecimalFormatRenderer(new DecimalFormat("#.####################")); // 20 decimal places
         
         for (int i = 0; i < iteration_table.getColumnCount(); i++) {
             iteration_table.getColumnModel().getColumn(i).setCellRenderer(doubleRenderer);
         }
-        return String.valueOf(c);
+        return String.valueOf(root);
     }
     
     private String parseFx(String expression){
