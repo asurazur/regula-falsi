@@ -1,0 +1,20 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\regula_falsi.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = C:\Program Files\Java\jdk-19
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-19\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Ruby31-x64\bin;C:\Users\rumbl\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\rumbl\AppData\Local\Programs\Python\Python311\;C:\Users\rumbl\AppData\Local\Microsoft\WindowsApps;C:\Users\rumbl\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\php\php-8.2.3-Win32-vs16-x64;C:\Users\rumbl\AppData\Roaming\Composer\vendor\bin;C:\nodejs;C:\Users\rumbl\AppData\Local\GitHubDesktop\bin;C:\Program Files\dotnet\sdk;C:\Users\rumbl\.dotnet\tools;C:\Program Files\apache-maven-3.9.5\bin;C:\flutter_windows_3.13.6-stable\flutter\bin;;C:\Program Files\Java\jdk-19\bin
+JRE paths:	C:\Program Files\Java\jdk-19;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-19\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Ruby31-x64\bin;C:\Users\rumbl\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\rumbl\AppData\Local\Programs\Python\Python311\;C:\Users\rumbl\AppData\Local\Microsoft\WindowsApps;C:\Users\rumbl\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\php\php-8.2.3-Win32-vs16-x64;C:\Users\rumbl\AppData\Roaming\Composer\vendor\bin;C:\nodejs;C:\Users\rumbl\AppData\Local\GitHubDesktop\bin;C:\Program Files\dotnet\sdk;C:\Users\rumbl\.dotnet\tools;C:\Program Files\apache-maven-3.9.5\bin;C:\flutter_windows_3.13.6-stable\flutter\bin;;C:\Program Files\Java\jdk-19\bin
+Check launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe (OK)
+Version string: 1.019.000_001 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-19\bin\javaw.exe
+Launcher args:	-jar "C:\Users\rumbl\OneDrive\Documents\Programming\commission\regula-falsi\target\regula_falsi.exe"
+Args length:	100/32768 chars
+Exit code:	0
